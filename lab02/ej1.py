@@ -12,7 +12,7 @@ def AtwoodMachine(masa1, masa2):
     #Calcular tension
     gravedad = 9.81
     aceleracion = calcular_aceleracion(masa1, masa2)
-    tension = masa1 * gravedad - masa1 * aceleracion 
+    tension = masa2 * gravedad + masa2 * aceleracion 
     return tension
 
 def calcular_aceleracion(masa1, masa2):
