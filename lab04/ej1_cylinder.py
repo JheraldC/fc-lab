@@ -52,4 +52,3 @@ ax2.streamplot(X, Z, Bx, Bz, color='b', linewidth=1)
 
 plt.tight_layout()
 plt.show()
-
