@@ -1,7 +1,7 @@
 import numpy as np
 
 # Parámetros y valor teórico
-valueTeo = 0.58904862554
+valueTeo = 2.7645 
 a, b = 0, 1
 N = 100000
 print('Integral:')
@@ -13,7 +13,7 @@ def monte_carlo(f, a, b, n):
     return integral
 
 def f(x):
-    return (1 - x**2)**(3/2)
+    return (np.e)**(x+x**2)
 
 res = monte_carlo(f, a, b, N)
 
